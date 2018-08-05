@@ -7,7 +7,7 @@ public abstract class User {
 	public static final int PASSWORD_LENGTH = 8;
 	
 
-	public User(String user, String password, String name, String surname, int password_lenght) {
+	public User(String user, String password, String name, String surname) {
 		this.user=user;
 		this.password=password;
 		this.name =name;
