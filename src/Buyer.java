@@ -2,6 +2,7 @@
 public class Buyer extends User{
 	public String product;
 	public int quantity;
+	public int reputationStatus;
 	public int memberSinceYear;
 	public int memberSinceMonth;
 	public Bid [] bids;
@@ -16,6 +17,12 @@ public class Buyer extends User{
 		this.quantity=quantity;
 		this.memberSinceYear=memberSinceYear;
 		this.memberSinceMonth=memberSinceMonth;
+	}
+	
+	
+	public int rateSeller(String name) {
+		return reputationStatus;
+		
 	}
 
 }
