@@ -1,17 +1,21 @@
 
 public abstract class User {
-	public String user;
+	public String userName;
 	public String password;
-	public String name;
+	public String firstName;
 	public String surname;
+	public String userLocation;
+	public int area;
 	public static final int PASSWORD_LENGTH = 8;
 	
 
-	public User(String user, String password, String name, String surname) {
-		this.user=user;
+	public User(String userName, String password, String firstName, String surname, String userLocation, int area) {
+		this.userName=userName;
 		this.password=password;
-		this.name =name;
+		this.firstName =firstName;
 		this.surname=surname;
+		this.userLocation = userLocation;
+		this.area=area;
 		
 	}
 	

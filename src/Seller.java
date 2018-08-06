@@ -6,10 +6,10 @@ public class Seller extends User {
 	public int memberSinceMonth;
 	
 
-	public Seller(String user, String password, String name, String surname, 
+	public Seller(String userName, String password, String firstName, String surname, String userLocation, int area, 
 			Product[] products, int quantity, int memberSinceYear, int memberSinceMonth) {
 		
-		super(user, password, name, surname);
+		super(userName, password, firstName, surname, userLocation, area);
 		this.products=products;
 		this.quantity=quantity;
 		this.memberSinceYear=memberSinceYear;
