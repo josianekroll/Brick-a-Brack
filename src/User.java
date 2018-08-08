@@ -17,8 +17,7 @@ public abstract class User {
 		this.surname=surname;
 		this.email=email;
 		this.userLocation = userLocation;
-		this.area=area;
-		
+		this.area=area;	
 	}
 	
 	public boolean is_Valid_Password(String password) {

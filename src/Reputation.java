@@ -1,10 +1,12 @@
 
 public enum Reputation {
 	
-    HOT("hot"),
-    Warm("warm"),
-    Cool("cool"),
-	Cold("cold");
+    Excellent("excelent"),
+    VeryGood("very good"),
+    Good("good"),
+	Fair("fair"),
+	NotSoGood("not so good"),
+	Bad("bad");
  
     private String description;
  
@@ -15,7 +17,5 @@ public enum Reputation {
     public String getDescription() {
         return description;
     }
-
-
 
 }

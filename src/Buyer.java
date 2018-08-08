@@ -24,5 +24,12 @@ public class Buyer extends User{
 		return reputationStatus;
 		
 	}
+	
+	public String getNotification(String product) {
+		// if product in the category, return product
+		
+		return product;
+		
+	}
 
 }
